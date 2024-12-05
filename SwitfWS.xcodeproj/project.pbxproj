@@ -23,6 +23,7 @@
 		9B9AF5E02CFF7B57003EC6AA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9AF5DF2CFF7B57003EC6AA /* FirebaseDatabase */; };
 		9B9AF5E22CFF7B57003EC6AA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9AF5E12CFF7B57003EC6AA /* FirebaseFirestore */; };
 		9B9AF5E52CFF7F33003EC6AA /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AF5E42CFF7F33003EC6AA /* AuthViewModel.swift */; };
+		9BD1C74D2D021E2C000331BA /* ProjectPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1C74C2D021E2C000331BA /* ProjectPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9B2C78522D00D9E000C4E63B /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
 		9B9AF5DA2CFF790B003EC6AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B9AF5E42CFF7F33003EC6AA /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9BD1C74C2D021E2C000331BA /* ProjectPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9B02B8E62CFE2F4300AD365B /* Login.swift */,
 				9B2C784E2D00CFAE00C4E63B /* NewProjectForm.swift */,
 				9B2C78502D00D6B200C4E63B /* ProjectList.swift */,
+				9BD1C74C2D021E2C000331BA /* ProjectPreview.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2C78532D00D9E000C4E63B /* ProjectsViewModel.swift in Sources */,
+				9BD1C74D2D021E2C000331BA /* ProjectPreview.swift in Sources */,
 				9B02B8ED2CFE3D6300AD365B /* AppNavegation.swift in Sources */,
 				9B02B8E72CFE2F4300AD365B /* Login.swift in Sources */,
 				9B9AF5E52CFF7F33003EC6AA /* AuthViewModel.swift in Sources */,
